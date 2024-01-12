@@ -1,0 +1,17 @@
+#sum of two floating point numbers
+a = input("first flaoting point number:")
+b = input("second flaoting point number:")
+a = float(a)
+b = float(b)
+z = a + b 
+print(z , type(z))
+#diffrence between two integers
+c = input("first integer:")
+d = input("second integer:")
+c = int(c)
+d = int(d)
+y = c - d 
+print(y , type(y))
+#product of float and int
+x = a*c
+print("first float multipled by first int =" , x , "which is of" , type(x))
