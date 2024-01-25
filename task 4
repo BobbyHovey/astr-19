@@ -1,0 +1,16 @@
+class fav_animal:
+	def __init__(self, arms, legs, eyes, tail, furry):
+		self.arms = arms
+		self.legs = legs
+		self.eyes = eyes
+		self.tail = tail
+		self.furry = furry
+
+	def print_info(self):
+		print(f'the length of its arms is {self.arms} feet')
+		print(f'the length of its legs is {self.legs} feet')
+		print(f'the number of eyes it has is {self.eyes}')
+		print(f'does the animal have a tail? {self.tail}')
+		print(f'is the animal furry? {self.furry}')
+my_fav_animal = fav_animal(7.8, 6.5, 4, "yes", "no")
+my_fav_animal.print_info()
