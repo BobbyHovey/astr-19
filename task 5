@@ -1,0 +1,9 @@
+def main():
+    x = np.linspace(0.0 , 2*pi, 1000)
+    y = np.sin(x)
+    data_table = [(a,b) for a,b in zip(x,y)]
+    table_headers = ["x", "sin(x)"]
+    print(tabulate(data_table, tablefmt = "grid", headers = table_headers, floatfmt= ".3f"))
+
+if __name__ == '__main__':
+    main()
